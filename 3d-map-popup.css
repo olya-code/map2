@@ -1,0 +1,91 @@
+.pinPopupPreview {
+  font-family: Arial, Helvetica, Geneva, sans-serif;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
+  background: #fff;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.35);
+  display: none;
+  z-index:9999;
+}
+
+.pinPopupPreviewClose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 0.8;
+  text-align: center;
+  color: #CCCCCC !important;
+  cursor: pointer;
+}.pinPopupPreviewClose:hover{
+  opacity: 1;
+  text-decoration: none;
+}
+.pinPopupPreviewImg img {
+  width: 100%;
+  height: auto;
+  margin-bottom: -9px;
+}
+.pinPopupPreviewImgRadiusTop {
+  -webkit-border-top-left-radius: 9px;
+  -webkit-border-top-right-radius: 9px;
+  -moz-border-radius-topleft: 9px;
+  -moz-border-radius-topright: 9px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+.pinPopupPreviewImgRadiusBottom {
+  -webkit-border-bottom-right-radius: 9px;
+  -webkit-border-bottom-left-radius: 9px;
+  -moz-border-radius-bottomright: 9px;
+  -moz-border-radius-bottomleft: 9px;
+  border-bottom-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+.pinPopupPreviewContent {
+  padding: 25px;
+  font-family: Arial;
+  font-weight: regular;
+  font-size: 13px;
+  color: #323232;
+  text-align: center;
+}
+.pinPopupPreviewText {
+  margin-top: 10px;
+}
+.pinPopupPreviewTitle {
+  margin-top: 5px;
+  font-size: 18px;
+}
+.pinPopupPreviewBtn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.pinPopupPreviewBtn a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+.pinPopupPreviewLink {
+  text-decoration: none;
+  background-color: #989898;
+  border: 1px solid #989898;
+  font-size: 18px;
+  padding: .25rem 1.5rem;
+  color: #ffffff;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.pinPopupPreviewLink:hover{
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #474747;
+  border: 1px solid #474747;
+}
